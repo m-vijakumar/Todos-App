@@ -10,7 +10,6 @@ function Todo(props) {
   );
     return (
       <div >
-
        
         {todolist}
 

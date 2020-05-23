@@ -18,6 +18,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install  && npm run build ",
   "browserslist": {
     "production": [
       ">0.2%",

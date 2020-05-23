@@ -26,6 +26,7 @@ function Todoitem(props) {
              {"  "}{props.todo.title}
              <button onClick={deltodo} style={btnStyle}>x</button>
              </h3>
+             
         </div>
     );
 }
